@@ -676,7 +676,7 @@ button {
 .slide-hd {
   position: absolute;
   top: -40px;
-  right: 110px;
+  right: 72px;
 }
 .slide-operate {
   position: absolute;
@@ -692,10 +692,10 @@ button {
   color: #0499f7;
 }
 .slide-operate.prev {
-  right: 145px;
+  right: 45px;
 }
 .slide-operate.next {
-  right: 110px;
+  right: 0;
 }
 /*======================================================================
       Responsive

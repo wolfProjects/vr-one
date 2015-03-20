@@ -26,7 +26,7 @@ module.exports = function (grunt){
             build: {
                 files: [
                     {
-                        src: [ 'assets/scripts/*', '*.html'],
+                        src: [ 'assets/scripts/*', 'assets/images/*', '*.html'],
                         dest: 'dist/',
                         expand: true
                     }
