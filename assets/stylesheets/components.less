@@ -6,6 +6,21 @@
       Components
   ======================================================================*/
 /* ----------------------------------------
+ * Button
+ * ---------------------------------------- */
+.btn-primary {
+  display: inline-block;
+  line-height: 38px;
+  padding: 0 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #00a4ff;
+  border-radius: 6px;
+}
+
+/* ----------------------------------------
  * Kv
  * ---------------------------------------- */
 .m-kv {
@@ -43,6 +58,44 @@
   }
 }
 
+/* ----------------------------------------
+ * Slide
+ * ---------------------------------------- */
+.m-slide {
+  position: relative;
+}
+
+.slide-hd {
+  position: absolute;
+  top: -40px;
+  right: 110px;
+}
+
+.slide-operate {
+  position: absolute;
+  width: 22px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 24px;
+  color: #868686;
+  cursor: pointer;
+}
+
+.slide-operate.active,
+.slide-operate:hover {
+  color: #0499f7;
+}
+
+.slide-operate.prev {
+  right: 145px;
+}
+
+.slide-operate.next {
+  right: 110px;
+}
+
+.slide-bd {
+}
 
 /*======================================================================
       Responsive

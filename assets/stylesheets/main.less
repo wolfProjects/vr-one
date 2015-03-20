@@ -16,13 +16,17 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 li {
   list-style: none;
 }
 
 .layout {
-  width: 1215px;
-  min-width: 1215px;
+  width: 1260px;
+  min-width: 1260px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,8 +46,68 @@ input {
 /*======================================================================
       Main
   ======================================================================*/
+/* header */
+.header {
+  background: #000;
+  height: 94px;
+}
 
+.header-logo {
+  padding: 20px 0 0 0;
 
+  a {
+    overflow: hidden;
+    display: block;
+    width: 182px;
+    height: 54px;
+    text-indent: -10em;
+    background: url("../images/header-logo.png") no-repeat;
+  }
+}
+
+.header-nav {
+  padding: 20px 0 0 0;
+  margin: 0 30px 0 0;
+
+  a {
+    float: left;
+    line-height: 54px;
+    margin: 0 17px;
+    font-size: 14px;
+    color: #fff;
+    .transition(text-shadow, .2s);
+  }
+
+  a:hover {
+    color: #00a3ff;
+
+    text-shadow: 0 0 5px #003c68;
+  }
+}
+
+.header-zeiss-logo {
+  padding: 20px 0 0 0;
+
+  a {
+    overflow: hidden;
+    display: block;
+    width: 129px;
+    height: 54px;
+    text-indent: -10em;
+    background: url("../images/header-zeiss-logo.png") no-repeat;
+  }
+}
+
+/* footer */
+.footer {
+  padding-bottom: 140px;
+}
+
+.footer-copyright {
+  .fs12;
+  color: #000;
+  text-align: center;
+}
 /*======================================================================
       Responsive
   ======================================================================*/
